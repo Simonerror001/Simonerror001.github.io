@@ -22,6 +22,7 @@
 				<span class="comments">/**</span><br />
 				<span class="space"/><span class="comments">* We met at Wuhan WuJiaShan High School ,</span><br />
 				<span class="space"/><span class="comments">* Being with you is the happiest moment for me!</span><br />
+
 				<span class="space"/><span class="comments">*/</span><br />
 				Boy I = <span class="keyword">new</span> Boy(<span class="string">"Simon"</span>);<br />
 				Girl U = <span class="keyword">new</span> Girl(<span class="string">"Serene"</span>);<br />
@@ -61,7 +62,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="copyright"
+		<div id="copyright">
 			Inspired by <a href="#">啾啾与么么</a>story<br />
 			Copyright © 2019 <a href='#'>Simon&Serene</a> 2016-2019
 		</div>
@@ -69,7 +70,8 @@
 
 	<audio style="display:none; height: 0" id="bg-music" preload="auto" src="images/zhiduan.mp3" loop="loop"></audio>
 
-	<script type="text/javascript"
+	<script type="text/javascript">
+
 		document.addEventListener('DOMContentLoaded', function () {
     function audioAutoPlay() {
         var audio = document.getElementById('bg-music');
@@ -79,21 +81,21 @@
         }, false);
     }
     audioAutoPlay();
-})
+});
 
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2016, 7,31)
+		together.setFullYear(2016, 7,31);
 		together.setHours(9);
 		together.setMinutes(0);
 		together.setSeconds(0);
-		together.setMilliseconds(0
+		together.setMilliseconds(0);
+
 		if (!document.createElement('canvas').getContext) {
 			var msg = document.createElement("div");
 			msg.id = "errorMsg";
-			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"
-	
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
 			document.body.appendChild(msg);
 			$("#code").css("display", "none")
 			$("#copyright").css("position", "absolute");
